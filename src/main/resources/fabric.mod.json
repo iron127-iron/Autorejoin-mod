@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "autorejoin",
+  "version": "${version}",
+  "name": "Auto Rejoin",
+  "description": "Auto reconnect mod with per-server configs and GUI.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.autorejoin.AutoRejoinClient"
+    ]
+  },
+  "depends": {
+    "minecraft": "1.21.1",
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*"
+  }
+}
