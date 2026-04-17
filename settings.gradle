@@ -1,1 +1,9 @@
+pluginManagement {
+    repositories {
+        maven { url 'https://maven.fabricmc.net/' } // ⭐ 關鍵
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
 rootProject.name = "autorejoin"
